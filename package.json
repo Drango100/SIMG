@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "nodemon server/index.js",
     "test": "mocha --timeout 10000 'test/**/*.js'",
+    "migrate": "node server/db/migration.js",
     "sonar": "sonar-scanner"
   },
   "keywords": [],
